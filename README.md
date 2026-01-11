@@ -109,23 +109,6 @@ strsplit1(x, ",")  # Returns the vector directly
 
 This package was created following the [R Packages (2e)](https://r-pkgs.org/) book by Hadley Wickham and Jenny Bryan.
 
-### Package Structure
-
-```
-regextoy/
-├── DESCRIPTION          # Package metadata
-├── NAMESPACE           # Exported functions
-├── LICENSE             # MIT License
-├── LICENSE.md          # Full license text
-├── R/                  # R source code
-│   └── strsplit1.R    # The strsplit1() function
-├── man/                # Documentation
-│   └── strsplit1.Rd   # Help file for strsplit1()
-└── tests/              # Unit tests
-    └── testthat/
-        └── test-strsplit1.R
-```
-
 ### Running Tests
 
 ```r
@@ -155,18 +138,6 @@ devtools::check()
 ## License
 
 MIT © Ojasv Issar
-
----
-
-## Future Enhancements
-
-Potential additions to expand this package:
-
-- [ ] Add error handling for edge cases
-- [ ] Create `strsplit1_fixed()` for literal string matching
-- [ ] Add more regex helper functions
-- [ ] Create vignettes with extended examples
-- [ ] Add GitHub Actions for CI/CD
 
 ---
 
